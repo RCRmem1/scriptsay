@@ -1,0 +1,1 @@
+{"operationName":"sendConsoleMessage","variables":{"sid":1251193,"region":"US","message":"global.say test"},"query":"mutation sendConsoleMessage($sid: Int!, $region: REGION!, $message: String!) {\n  sendConsoleMessage(rsid: {id: $sid, region: $region}, message: $message) {\n    ok\n    __typename\n  }\n}"}
